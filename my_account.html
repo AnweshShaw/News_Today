@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Account - News Today</title>
+	<link rel="stylesheet" type="text/css" href="CSS/styles4.css">
+    <link rel="icon" type="image/x-icon" href="CSS/news_favicon.svg">
+</head>
+<body>
+	<div class="header">
+		<h1><center>My Account</center></h1>
+		<nav>
+			<ul>
+				<li><a href="login.html">Logout</a></li>
+				<li><a href="my_account.html">Home</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="container">
+        <div class="left-col">
+			<h2>Recent Activity</h2>
+			<div class="activity-item">
+				<p>Logged in at 9:00am on April 22, 2023</p>
+			</div>
+			<div class="activity-item">
+				<p>Updated account information at 9:15am on April 22, 2023</p>
+			</div>
+            <div class="activity-item">
+				<p>Subscribed to Business and Tech News on April 22, 2023</p>
+			</div>
+		</div>
+		<div class="right-col">
+			<!--<h2>Account Information</h2>
+			<form>
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username" value="Anwesh"><br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" value="anweshofficial16@gmail.com"><br><br>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" value="mypassword"><br><br>
+				<input type="submit" value="Save Changes">
+			</form>-->
+            <div class="subscription">
+                <span>
+                    <h3>1) Business News</h3>
+                    <button class="business" onclick="message()">Subscribe</button>
+                </span>
+                <span>
+                    <h3>2) Technology News</h3>
+                    <button class="business" onclick="message()">Subscribe</button>
+                </span>
+                <span>
+                    <h3>3) Entertainment News</h3>
+                    <button class="business" onclick="message()">Subscribe</button>
+                </span>
+                <span>
+                    <h3>4) Science News</h3>
+                    <button class="business" onclick="message()">Subscribe</button>
+                </span>
+                <span>
+                    <h3>5) Sports News</h3>
+                    <button class="business" onclick="message()">Subscribe</button>
+                </span>
+                <span>
+                    <h3>6) Health News</h3>
+                    <button class="business" onclick="message()">Subscribe</button>
+                </span>
+            </div>
+		</div>
+	</div>
+    <script>
+        function message()
+        {
+            alert('Subscribed');
+        }
+    </script>
+</body>
+</html>

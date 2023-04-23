@@ -1,0 +1,90 @@
+body 
+{
+	background-color: #444;
+	font-family: sans-serif;
+}
+
+.login-box 
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	width: 350px;
+	padding: 40px;
+	box-shadow: 0 0 10px #000;
+	border-radius: 15px;
+}
+
+.login-box h2 
+{
+	margin: 0 0 30px;
+	padding: 0;
+	text-align: center;
+	font-size: 22px;
+	color: #000;
+}
+
+.login-box .user-box 
+{
+	position: relative;
+}
+
+.login-box .user-box input 
+{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #000;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #000;
+	outline: none;
+	background: transparent;
+}
+
+.login-box .user-box label 
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #000;
+	pointer-events: none;
+	transition: 0.5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label 
+{
+	top: -20px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 12px;
+}
+
+.login-box button 
+{
+	background-color: #03a9f4;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	padding: 12px 20px;
+	font-size: 16px;
+	margin-top: 40px;
+}
+
+.submit
+{
+    margin-top: 0%;
+    margin-left: 35%;
+    border-radius: 20px;
+}
+
+.register
+{
+    margin-left: 22%;
+}
