@@ -1,4 +1,4 @@
-News Today is a web application built to provide simplified news content to everyone for free. It has a compilation of news articles from all different sectors across India.
+News Today is a web application built to provide simplified news content to everyone for free. It has a compilation of news articles from all different sectors across India. It provides a snippet of the news in 30-40 words, which makes it convenient for the users to go through multiple news snippets in comparatively less amount of time than other news websites.
 
 ![Screenshot (138)](https://user-images.githubusercontent.com/83204279/233854125-24f7818c-e856-40a0-be04-5ea83b84dd69.png)
 
